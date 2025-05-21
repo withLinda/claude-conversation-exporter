@@ -28,7 +28,7 @@ This script allows you to:
 2. Open your browser's developer console:
    - Chrome/Edge: Press F12 or Ctrl+Shift+J (Windows/Linux) or Cmd+Option+J (Mac)
    - Firefox: Press F12 or Ctrl+Shift+K (Windows/Linux) or Cmd+Option+K (Mac)
-3. Copy the entire content of the `claude_export_script.js` file
+3. Copy the entire content of the [`claude_export_script.js`](https://github.com/withLinda/claude-conversation-exporter/blob/master/claude_export_script.js) file
 4. Paste it into the console and press Enter
 5. The script will automatically:
    - Detect the conversation and organization IDs
@@ -63,6 +63,15 @@ If you encounter issues:
 2. Check the browser console for any error messages
 3. If the organization ID can't be found automatically, you may need to provide it manually when prompted
 4. If downloads don't start, check your browser's download settings and permissions
+
+### ID Examples
+
+When the script runs, it will display information about the detected IDs:
+
+- Conversation ID example: `a1b2c3d4-5e6f-7g8h-9i0j-k1l2m3n4ob06`
+- Organization ID example: `0a1b2c3d-4e5f-6g7h-8i9j-0k1l2m3n4o38`
+
+These are UUID format identifiers that the script needs to access your conversation data.
 
 ## Privacy & Security
 

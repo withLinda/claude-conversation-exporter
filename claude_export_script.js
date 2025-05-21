@@ -158,16 +158,6 @@ function extractClaudeOrgID() {
         }
     }
 
-    // ========= Method 8: Look for the specific ID from your example =========
-    console.log("Method 8: Searching for the example organizationID you provided...");
-    const targetOrgId = "0d783cd5-976c-4ca8-a659-a0bc5132fa38";
-
-    // First check if it exists in any form in the page source
-    if (document.documentElement.outerHTML.includes(targetOrgId)) {
-        console.log(`✅ Found the exact organizationID you mentioned in the page: ${targetOrgId}`);
-        return targetOrgId;
-    }
-
     // Try with a broader search for any UUID in the document
     const allUUIDs = document.documentElement.outerHTML.match(/[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}/g) || [];
     if (allUUIDs.length > 0) {
