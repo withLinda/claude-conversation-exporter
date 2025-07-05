@@ -9,13 +9,13 @@ A JavaScript utility to export your Claude AI conversations as Markdown and JSON
 - If the organization ID cannot be automatically detected, the script will prompt you to enter it manually
 - Some very large conversations might have truncated content in certain sections
 
-![Claude Conversation Exporter Screenshot](img.png)
+<img src="img.png" alt="Claude Conversation Exporter Screenshot" width="400">
 
-![Bookmarklet HTML Page](img_3.png)
+<img src="img_3.png" alt="Bookmarklet HTML Page" width="400">
 
-![Bookmarklet in Action](img_1.png)
+<img src="img_1.png" alt="Bookmarklet in Action" width="400">
 
-![Download Succeeded](img_2.png)
+<img src="img_2.png" alt="Download Succeeded" width="400">
 
 ## What This Script Does
 
