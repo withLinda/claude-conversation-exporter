@@ -1,3 +1,7 @@
+> **📚 For Project Knowledge Export:** If you want to export Claude project documentation instead of conversations, use the [Claude Project Knowledge Exporter](https://github.com/withLinda/claude-project-knowledge-exporter).
+
+---
+
 # Claude Conversation Exporter
 
 A JavaScript utility to export your Claude AI conversations as Markdown and JSON files, including all attachments, artifacts, and their extracted content.
