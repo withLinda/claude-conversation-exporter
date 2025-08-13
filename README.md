@@ -1,10 +1,14 @@
-> **📚 For Project Knowledge Export:** If you want to export Claude project documentation instead of conversations, use the [Claude Project Knowledge Exporter](https://github.com/withLinda/claude-project-knowledge-exporter).
+# Claude Conversation Exporter (Claude.ai Web Version)
+
+> **🌐 For Claude.ai Web Browser:** This tool exports conversations from Claude.ai in your web browser - not Claude Desktop, CLI, or API versions.
+
+> **📚 Related Tools:**
+> - **Project Knowledge:** [Claude Project Knowledge Exporter](https://github.com/withLinda/claude-project-knowledge-exporter)
+> - **Project Conversations:** [Claude Project Conversations Exporter](https://github.com/withLinda/claude-project-conversations-exporter)
 
 ---
 
-# Claude Conversation Exporter
-
-A JavaScript utility to export your Claude AI conversations as Markdown and JSON files, including all attachments, artifacts, and their extracted content.
+A JavaScript utility to export your Claude.ai conversations as Markdown and JSON files, including all attachments, artifacts, and their extracted content.
 
 ## Notes
 
@@ -38,7 +42,7 @@ This script allows you to:
 
 The easiest way to use the exporter is through the bookmarklet:
 
-1. Open [`bookmarklet.html`](https://github.com/withLinda/claude-conversation-exporter/blob/master/bookmarklet.html) in your browser
+1. Visit the [Bookmarklet Installer](https://withlinda.github.io/claude-conversation-exporter/)
 2. Drag the "Export Claude Conversation" button to your bookmarks bar
 3. Navigate to any Claude conversation you want to export
 4. Click the bookmarklet in your bookmarks bar
